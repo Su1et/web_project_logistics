@@ -1,0 +1,104 @@
+header {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 150px;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    padding-right: 120px;
+}
+
+nav {
+    font-size: 20px;
+    font-family: Calibri, serif;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(80, 125, 200);
+}
+
+nav a:hover {
+    color: purple;
+}
+
+body {
+    background-color: #2a6963;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Book Antiqua", sans-serif;
+    color: aliceblue;
+}
+
+.form-label label {
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+.form-label input[type="text"],
+.form-label textarea,
+.form-label select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-label select {
+    width: 15%;
+}
+
+.form-label input[type="submit"] {
+    background-color: #ffffff;
+    color: #2a6963;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-label input[type="submit"]:hover {
+    background-color: #d8e8d8;
+}
+
+.contacts {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacts a {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contacts iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 4px;
+}

@@ -1,0 +1,92 @@
+header {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 150px;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    padding-right: 120px;
+}
+
+nav {
+    font-size: 20px;
+    font-family: Calibri, serif;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(80, 125, 200);
+}
+
+nav a:hover {
+    color: purple;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    font-family: "Book Antiqua", sans-serif;
+    color: #2a6963;
+}
+
+body {
+    background: #cad4f1;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*FAQ*/
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 10px 10px 10px;
+}
+
+.questions {
+    border: 1px solid #0069d9;
+    border-radius: 10px;
+}
+
+.faq-title {
+    display: block;
+    color: #2a6963;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    transition: background-color .2s ease-out;
+}
+
+.faq-title:hover {
+    background-color: #7d92c9;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.faq-input {
+    appearance: none;
+    position: absolute;
+}
+
+.faq-input:checked + .faq-text {
+    display: block;
+
+}
+
+.faq-text {
+    display: none;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
